@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Blogs</title>
+    <style>
+        :root {
+            --primary-color: #1e1e1e;
+            --secondary-color: #2d2d2d;
+            --accent-color: #d4d4d4;
+            --white: #ffffff;
+            --font-heading: 'Roboto Slab', serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--primary-color);
+            color: var(--accent-color);
+            font-family: var(--font-body);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--secondary-color);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-family: var(--font-heading);
+            color: var(--white);
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--accent-color);
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--white);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-family: var(--font-heading);
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: var(--white);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--accent-color);
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+        }
+
+        .blog-post h3 {
+            font-family: var(--font-heading);
+            font-size: 28px;
+            color: var(--white);
+        }
+
+        .blog-post p {
+            margin: 10px 0;
+        }
+
+        .blog-post a {
+            color: var(--accent-color);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-color);
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+        }
+
+        .blog-post a:hover {
+            color: var(--white);
+            border-bottom: 1px solid var(--white);
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            text-align: center;
+            padding: 20px;
+            color: var(--accent-color);
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VS Code Blogs</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to VS Code Blogs</h2>
+        <p>Discover the latest trends, tips, and tutorials for developers and tech enthusiasts.</p>
+    </div>
+
+    <div class="container">
+        <div class="blog-post">
+            <h3>Mastering Extensions in VS Code</h3>
+            <p>Extensions can supercharge your productivity in VS Code. Learn how to choose and configure the best ones for your workflow.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h3>Debugging Tips and Tricks</h3>
+            <p>Efficient debugging is an essential skill for developers. Check out these tips to debug like a pro in VS Code.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h3>Customizing Your Workspace</h3>
+            <p>Personalize your workspace for maximum efficiency and aesthetics. Explore themes, layouts, and shortcuts.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 VS Code Blogs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
